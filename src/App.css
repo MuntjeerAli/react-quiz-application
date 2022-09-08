@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,7 +35,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .loading {
   position: absolute;
@@ -116,5 +116,27 @@
   .main-app{
     width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .ans-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn{
+    width: 65%;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .next-btn{
+    width: 65%;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
   }
 }
